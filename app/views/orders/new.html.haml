@@ -6,8 +6,8 @@
   .form-group
     =label_tag(:user_query, 'Assign to user:')
     .d-flex.align-items-center.order-form__user-search-wrapper
-      =button_tag 'Button', type: 'button',
-                   class: 'btn order-form__user-search-btn' do
+      =button_tag type: 'button',
+                  class: 'btn order-form__user-search-btn' do
         %i.fa.fa-search.fa-icon
       =text_field_tag :user_query, nil,
                       class: 'form-control order-form__user-search-input'

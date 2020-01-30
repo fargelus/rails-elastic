@@ -1,0 +1,21 @@
+.order-form {
+  &__user-search-wrapper {
+    position: relative;
+  }
+
+  &__user-search-input {
+    padding-left: 40px;
+  }
+
+  &__user-search-btn {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  &__user-search-result {
+    background: #edecec;
+    display: inline-block;
+    padding: 5px 15px;
+  }
+}
