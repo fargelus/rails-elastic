@@ -7,10 +7,9 @@ class OrdersController < ApplicationController
 
   def create
     @order = Order.new(order_params)
-    begin
-      @order.create!
+    if @order.save
       redirect_to root_path
-    rescue StandardError
+    else
       render 'new'
     end
   end
