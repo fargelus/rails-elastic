@@ -8,6 +8,7 @@ ruby '2.6.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.3.1'
+gem 'font-awesome-rails'
 gem 'haml-rails', '~> 2.0'
 gem 'jbuilder', '~> 2.5'
 gem 'pg', '~> 0.20'

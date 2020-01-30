@@ -1,6 +1,7 @@
 .d-flex.justify-content-end
   %div=link_to 'Create user', new_user_path, class: 'mr-4'
-  %div=link_to 'Create order', new_order_path
+  -if any_user_exist?
+    %div=link_to 'Create order', new_order_path
 
 .mt-5
   %h2.mb-3 Search users or orders
