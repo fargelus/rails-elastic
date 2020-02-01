@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Order < ApplicationRecord
+  searchkick
   belongs_to :user
 
   validates :title, presence: true
